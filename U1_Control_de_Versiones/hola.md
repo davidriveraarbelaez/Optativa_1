@@ -25,5 +25,12 @@
 2. CSS
 - Bootstrap
 - Tailwind [Tailwind](https://tailwindcss.com/)
+- Logo ![Logo](https://tailwindcss.com/img/tailwindcss-mark.svg)
 3. JavaScript
+
+| Nombre | Edad | Sexo |
+| ------ | ---- | ---- |
+| Juan   | 20   | M    |
+| Maria  | 22   | F    |
+| Pedro  | 25   | M    |
 
