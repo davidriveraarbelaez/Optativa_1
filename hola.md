@@ -24,6 +24,6 @@
 * Modelo de caja
 2. CSS
 - Bootstrap
-- Tailwind
+- Tailwind [Tailwind](https://tailwindcss.com/)
 3. JavaScript
 
