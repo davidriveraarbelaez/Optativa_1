@@ -19,3 +19,11 @@
 </body>
 </html>
 ```
+# Unidad 2
+1. HTML
+* Modelo de caja
+2. CSS
+- Bootstrap
+- Tailwind
+3. JavaScript
+
