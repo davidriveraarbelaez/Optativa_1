@@ -1,4 +1,4 @@
-# Optativa_1
+# Optativa 1 - Desarrollo web
 
 ## Contenidos del curso
 
