@@ -38,11 +38,72 @@
     </ul>
 <hr>
 <h2>Enlaces y navegación</h2>
-<a href="https://www.google.com">Ir a Google</a>
+<a href="https://www.google.com">Ir a Google en la misma pestaña</a>
 <br>
 <a href="https://www.google.com" target="_blank">Ir a Google en una nueva pestaña</a>
+<!-- Enlace interno -->
+<br>
+<a href="Parcial_corte_1.html">Ir a enunciados del parcial 1</a>
+<hr>
+<h2>Imágenes</h2>
+<!--    
+<img src="imagen.png" alt="Logo de Google">
+src: URL de la imagen
+alt: Texto alternativo
+width: Ancho de la imagen
+height: Alto de la imagen
+-->
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo de Google">
+
+<!-- Video
+Vídeo de José Alfredo  Munguía Lira de Pexels: https://www.pexels.com/es-es/video/uso-de-la-maquina-de-suministro-de-energia-para-controlar-el-voltaje-electrico-3466611/ 
+-->
 
 <hr>
 <h2>Tablas</h2>
+<!--    Tablas
+* tr: Fila
+* th: Encabezado
+* td: Celda
+* table border="1": Borde de la tabla
+-->
+<table border="1">
+    <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Correo</th>
+    </tr>
+    <tr>
+        <td>Pedro Pérez</td>
+        <td>25</td>
+        <td> pedro.perez@mail.com</td>
+    </tr>
+</table>
+<hr>
+<h2>Formularios</h2>
+<!--    Formularios
+* form: Formulario
+* input type="text": Campo de texto
+* input type="password": Campo de contraseña
+* input type="submit": Botón de envío
+* textarea: Área de texto
+* select: Lista desplegable
+* option: Opción de la lista desplegable
+-->
+
+<form action="procesar.php" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+    <br>
+    <label for="correo">Correo:</label>
+    <input type="email" name="correo" id="correo">
+    <br>
+    <label for="mensaje">Mensaje:</label>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+</form>
+<hr>
 </body>
 </html>
