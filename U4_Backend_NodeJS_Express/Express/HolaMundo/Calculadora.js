@@ -32,3 +32,6 @@ app.get('/calcular/:operacion/:num1/:num2', (req, res) => {
 app.listen(port, () => {
     console.log(`Servidor escuchando en http://localhost:${port}`); // Mensaje de confirmación al iniciar el servidor
 });
+
+// Para probar la calculadora, abre un navegador y visita las siguientes URLs:
+// http://localhost:4000/calcular/suma/5/3
